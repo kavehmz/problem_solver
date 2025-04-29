@@ -1,0 +1,8 @@
+2025-04-29T11:22:20+02:00 | T-0001 | done | ./output/solution/prompts/01_global_system_prompt.md
+2025-04-29T11:23:00+02:00 | T-0002 | done | ./output/solution/prompts/02_bootstrap_prompt.md
+2025-04-29T13:39:05+02:00 | T-0003 | done | ./output/solution/prompts/03_per_task_template.md
+2025-04-29T13:39:42+02:00 | T-0004 | done | ./output/solution/prompts/04_logging_metadata_standards.md
+2025-04-29T13:40:27+02:00 | T-0005 | done | ./output/solution/prompts/05_playbook.md;./output/lib/strategy_selector.py
+2025-04-29T13:40:57+02:00 | T-0006 | done | ./output/solution/prompts/06_finishing_up.md
+2025-04-29T13:42:00+02:00 | T-0007 | done | ./output/solution/final_answer.md
+2025-04-29T13:42:37+02:00 | T-0008 | done | ./output/logs/run_complete.flag

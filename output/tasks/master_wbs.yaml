@@ -1,0 +1,49 @@
+tasks:
+  - id: T-0001
+    title: Generate Global System Prompt
+    objective: Create the main system prompt defining the AI's core mission, capabilities, and rules.
+    deliverable_path: ./output/solution/prompts/01_global_system_prompt.md
+    method_hint: Extract and reformat §1 from solve.md.
+    status: done
+  - id: T-0002
+    title: Generate Bootstrap Prompt
+    objective: Create the prompt detailing the AI's initial actions upon launch.
+    deliverable_path: ./output/solution/prompts/02_bootstrap_prompt.md
+    method_hint: Extract and reformat §2 from solve.md.
+    status: done
+  - id: T-0003
+    title: Generate Per-Task Prompt Template
+    objective: Create the template prompt for guiding the AI through individual sub-tasks.
+    deliverable_path: ./output/solution/prompts/03_per_task_template.md
+    method_hint: Extract and reformat §3 from solve.md.
+    status: done
+  - id: T-0004
+    title: Generate Logging Standards Prompt
+    objective: Create the prompt section defining the required logging and metadata formats.
+    deliverable_path: ./output/solution/prompts/04_logging_metadata_standards.md
+    method_hint: Extract and reformat §4 from solve.md.
+    status: done
+  - id: T-0005
+    title: Generate Playbook Prompt & Script
+    objective: Create the prompt section describing the recommended problem-solving strategies and the associated helper script.
+    deliverable_path: ./output/solution/prompts/05_playbook.md # Script at ./output/lib/strategy_selector.py
+    method_hint: Extract and reformat §5 from solve.md, create Python script.
+    status: done
+  - id: T-0006
+    title: Generate Finishing Up Prompt
+    objective: Create the prompt section detailing the final checks and actions for run completion.
+    deliverable_path: ./output/solution/prompts/06_finishing_up.md
+    method_hint: Extract and reformat §6 from solve.md.
+    status: done
+  - id: T-0007
+    title: Assemble Final Solution
+    objective: Combine all generated prompts and create the final executive summary document as per §6.
+    deliverable_path: ./output/solution/final_answer.md
+    method_hint: Aggregate outputs from T-0001 to T-0006, write summary.
+    status: done
+  - id: T-0008
+    title: Create Completion Flag
+    objective: Create the final flag file indicating successful completion of the entire run.
+    deliverable_path: ./output/logs/run_complete.flag
+    method_hint: Write timestamp to file.
+    status: done
